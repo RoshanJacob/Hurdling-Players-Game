@@ -136,7 +136,8 @@ class Game {
 
 
   end(){
-    console.log("Game Ended");
+    background(255, 0, 0);
+    text("Game over! Your rank is" + " " + player.rank + "!", displayWidth/2, displayHeight/2);
   }
 }
 
